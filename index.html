@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RazorPay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2ea3cb570.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="side-1">
+                <h1>Payment Request from Upwards Capital Pvt Ltd</h1>
+                <div class="payment">
+                    <p class="DetailRow">PAYMENT FOR</p>
+                    <p class="DetailValue">5693093_T031023000001</p>
+                </div>
+                <div class="reciept">
+                    <p class="DetailRow">RECEIPT</p>
+                    <p class="DetailValue">C4110754_L5693093_RI1375_T031023000001</p>
+                </div>
+                <div class="payment">
+                    <p class="DetailRow">EXPIRE BY</p>
+                    <p class="current_time DetailValue">Apr 3, 2024 (5:39 PM)</p>
+                </div>
+                <div class="amount">
+                    <p class="DetailRow">AMOUNT PAYABLE</p>
+                    <p class="DetailValue text">INR 1,40,000.00</p>
+                </div>
+                <div class="due">
+                    <p>INR 1,40,000.00 <span class="DetailRow">DUE</span></p>
+                    <p class="DetailValue">INR 0.00 PAID</p>
+                </div>
+            </div>
+            <div class="side-2">
+                <div class="top_nav">
+                    <div class="logo">U</div>
+                    <p>Upwards Capital...</p>
+                </div>
+                <form id="form">
+                    <div class="title">
+                        <p>Contact Details</p>
+                    </div>
+                    <div class="box">
+                        <label for="phone">+91</label>
+                        <input type="text" placeholder="Phone Number" required>
+                    </div>
+                    <div class="box-1">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="title">
+                        <p>Payment Type</p>
+                    </div>
+                    <div class="radio">
+                        <label for="full">Pay in Full</label>
+                        <input type="radio" id="full" name="payment" checked>
+                    </div>
+                    <div class="radio-x">
+                        <label for="parts">Make Payments in Parts</label>
+                        <input type="radio" id="parts" name="payment">
+                    </div>
+
+                </form>
+                <form id="form-1">
+                    <div class="title">
+                        <p>Cards And Netbanking</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <p>Card</p>
+                    </div>
+                    <div class="cont">
+                        <input type="text" placeholder="Enter card No">
+                        <input type="text" class="exp" placeholder="Expiry" id="exp">
+                    </div>
+                    <div class="cont-1 cont">
+                        <input type="text" placeholder="Enter card holder name">
+                        <input type="text" class="exp" placeholder="Enter cvv">
+                    </div>
+
+
+                </form>
+                <div class="bottom_nav">
+                    <div class="text_content">
+                        <p>₹ 1,40,000</p>
+                        <p class="nww">+Fee</p>
+                    </div>
+                    <input type="submit" value="Continue" class="btn" id="btn">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
