@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary_color: #2371EC;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 2rem;
+    margin-top: 6rem;
+    height: 70%;
+    width: 64%;
+    box-shadow: .3px .3px .2rem rgba(0, 0, 0, .4);
+    border-radius: 3px;
+    position: relative;
+}
+
+.container h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.due {
+    margin-top: 16px;
+}
+
+.DetailRow {
+    color: #a5a5a5;
+    line-height: 22px;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+.DetailValue {
+    color: #414141;
+    font-size: 14px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+
+
+.side-2 {
+    width: 350px;
+    position: absolute;
+    right: -10px;
+    top: -15%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+    min-height: 511px;
+    background-color: #fff;
+    z-index: 0;
+    margin: 0 auto 0 -15px;
+}
+
+.top_nav {
+    background-color: var(--primary_color);
+    padding: 1rem;
+}
+
+.logo {
+    display: inline;
+    line-height: 36px;
+    height: 36px;
+    background: hsla(0, 0%, 100%, .1);
+    width: 36px;
+    border-radius: 2px;
+    color: #fff;
+    padding: .5rem .8rem;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2.3px solid rgb(153, 153, 233);
+    margin-right: 10px;
+}
+
+.top_nav p {
+    color: #fff;
+    display: inline;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 10px;
+    margin: 1.5rem;
+}
+
+form .box {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+form .box input {
+    padding: 1rem;
+    border: none;
+    border-left: 1px solid #aaa;
+    outline: none;
+    font-size: 15px;
+}
+
+form .box label {
+    padding: .9rem;
+}
+
+form .box-1 {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+form .box-1 input {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+form .box-1 label {
+    padding: .9rem;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.radio,
+.radio-x {
+    padding: 1rem;
+}
+
+.radio {
+    border: 1px solid #aaa;
+    margin-top: 10px;
+}
+
+.radio-x {
+    border-top: none !important;
+    border: 1px solid #aaa;
+}
+
+form .radio input {
+    margin-left: 170px;
+    width: 18px;
+    height: 18px;
+}
+
+form .radio-x input {
+    margin-left: 68px;
+    width: 18px;
+    height: 18px;
+}
+
+.bottom_nav {
+    display: flex;
+    box-shadow: 1px 2px .3rem rgba(0, 0, 0, .4);
+    padding: 1rem 1.5rem;
+    width: 100%;
+}
+
+.btn {
+    padding: .8rem 5rem;
+    background-color: #2371EC;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.text_content {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.nww {
+    font-size: 10px;
+}
+
+.bottom_nav .btn {
+    border: none;
+    font-size: 15px;
+}
+
+#form-1 {
+    display: none;
+}
+
+.card {
+    display: flex;
+    margin-top: 10px;
+}
+
+.cont input {
+    width: 70%;
+    height: 2rem;
+}
+
+.cont .exp {
+    width: 25%;
+}
+
+.cont-1 {
+    margin-top: 10px;
+    margin-bottom: 13.5rem;
+}
+
+
+@media screen and (max-width:386px) {
+
+    html {
+        font-size: 72.5%;
+    }
+
+    .container {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .radio input {
+        margin-left: 90px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .reciept .idno {
+        font-size: 10px;
+    }
+
+    .container h1 {
+        font-size: 15px;
+    }
+
+    form .radio-x input {
+        margin-left: 18px;
+        width: 15px;
+        height: 15px;
+    }
+
+
+    .side-2 {
+        width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+        min-height: 511px;
+        background-color: #fff;
+        z-index: 0;
+        margin: 0 auto 0 -15px;
+        position: absolute;
+        top: 105%;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    .box input {
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .btn {
+        padding: .2rem 2rem;
+    }
+
+    .top_nav p {
+        font-size: 15px;
+    }
+}
